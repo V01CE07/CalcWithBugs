@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EngineCalcDrozdov</id>
+    <version>1.0.0</version>
+    <authors>EngineCalcDrozdov</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Avalonia" version="11.0.6" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Desktop" version="11.0.6" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Diagnostics" version="11.0.6" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Fonts.Inter" version="11.0.6" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Themes.Fluent" version="11.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\prdb\Desktop\EngineCalcDrozdov\bin\Debug\net7.0\EngineCalcDrozdov.runtimeconfig.json" target="lib\net7.0\EngineCalcDrozdov.runtimeconfig.json" />
+    <file src="C:\Users\prdb\Desktop\EngineCalcDrozdov\bin\Debug\net7.0\EngineCalcDrozdov.dll" target="lib\net7.0\EngineCalcDrozdov.dll" />
+  </files>
+</package>
